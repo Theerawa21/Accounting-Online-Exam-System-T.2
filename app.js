@@ -14,7 +14,7 @@ function makeSet(i){const c=conceptSets[i].map((x,n)=>({id:`c${n}`,q:x[0],answer
 const CONFIG={
   // หากเปิดเว็บจาก Google Apps Script ไม่ต้องแก้ค่านี้
   // หากโฮสต์เว็บแยกต่างหาก ให้วาง URL ของ Web app หลัง Deploy Code.gs
-  appsScriptUrl:''
+  appsScriptUrl:'https://script.google.com/macros/s/AKfycbzaOVO7-knqZtu5DVgPKHtIBot6kId2EUZORRpgMjkq5OdLC3-p0xBx8qq4cOnLU34/exec'
 };
 const EXAM_SECONDS=40*60;
 const $=s=>document.querySelector(s);
